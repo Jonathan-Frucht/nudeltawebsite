@@ -7,8 +7,12 @@ const HomePage = () => {
     <div className=" ">
       {/* the div wrapper will place the side bar with other elements  */}
       <div className="wrapper">
-        <MainNavBar />
-        <ExecBoard />
+        <div>
+          <MainNavBar />
+        </div>
+        <div>
+          <ExecBoard />
+        </div>
       </div>
     </div>
   );

@@ -9,10 +9,15 @@ const HomePage = () => {
       <div className=" ">
         {/* the div wrapper will place the side bar with other elements  */}
         <div className="wrapper">
-          <MainNavBar />
-
-          <PageTitle />
-          <Init />
+          <div>
+            <MainNavBar />
+          </div>
+          <div>
+            <PageTitle />
+          </div>
+          <div>
+            <Init />
+          </div>
         </div>
       </div>
     </html>
