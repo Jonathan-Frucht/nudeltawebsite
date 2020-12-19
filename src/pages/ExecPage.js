@@ -6,11 +6,11 @@ const HomePage = () => {
   return (
     <div className=" ">
       {/* the div wrapper will place the side bar with other elements  */}
-      <div className="wrapper">
-        <div>
+      <div className="">
+        <div >
           <MainNavBar />
         </div>
-        <div>
+        <div width= "50%">
           <ExecBoard />
         </div>
       </div>
