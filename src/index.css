@@ -16,7 +16,7 @@ code {
 .pageBackground
 {
   
-  background-color: #6d7fcc;
+  background-color: #4a5fb9;
   /* background-size: fill; */
   background-attachment: fixed; 
 
@@ -25,18 +25,42 @@ code {
 .wrapper {
   display: flex;
   width: 100%;
+  height: 100%;
   align-items: stretch;
-  text-align: center;
-
-  
+  text-align: center;  
 }
 
+.execWrapper
+{
+  background-color: blanchedalmond;
+  position:relative;
+  display: block;
+  width: auto;  right: 0%;
+}
+
+.execAboutWrapper
+{
+  background-color: grey;
+  display: block;
+  width: 100%;  position: relative;
+
+  top: 30%;
+  
+}
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
-  background: #6d7fcc;
+  min-width: 10%;
+ 
+  background: #4a5fb9;
   color: #fff;
+  height: 100%;
   transition: all 0.3s;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 #sidebar.active {
@@ -45,7 +69,7 @@ code {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc;
+  background: #4a5fb9;
 }
 
 #sidebar ul.components {
@@ -58,7 +82,7 @@ code {
   padding: 10px;
   font-size: 1.3em;
   display: block;
-  background-color: #6d7fcc;
+  background-color: #4a5fb9;
   color: black;
 }
 
