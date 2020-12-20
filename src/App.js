@@ -9,6 +9,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import ExecPage from "./pages/ExecPage";
 import HomePage from "./pages/HomePage";
+import RushPage from "./pages/RushPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* <Route exact path="/" component={}/> */}
         <Route exact path="/" component={HomePage} />
         <Route exact path="/exec_board" component={ExecPage} />
+        <Route exact path="/rush" component={RushPage} />
         <Redirect to="/" />
       </Switch>
     </Router>
