@@ -11,7 +11,7 @@ function ExecBoard() {
     <div id="1"
        >
       <div id="jumbo" >
-      {/* <Jumbotron
+      <Jumbotron
       fluid
       border-style="solid"
       style={{
@@ -25,10 +25,10 @@ function ExecBoard() {
     >
       <Container>
       <div>
-              <Image src={allExec} alt="..." fluid style={{}} />
+              <Image src={allExec} alt="..." fluid  style={{top:"0%",position:"relative"}} />
             </div>
       </Container>
-     */}
+    
     {/* EXEC INDIVIDUAL SECTIONS */}
     <div className="execWrapper">
       <h1 style={{textAlign:"center"}}>
@@ -356,7 +356,7 @@ function ExecBoard() {
         </Row>
       </Container>
     </div>
-    {/* </Jumbotron> */}
+    </Jumbotron>
     </div>
     </div>
   );
