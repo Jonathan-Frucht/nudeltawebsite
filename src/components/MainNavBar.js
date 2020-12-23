@@ -3,14 +3,16 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Bofa from "../pictures/COFA_Color.png";
+import Bofa from "../pictures/webfrucht.png";
 import Image from "react-bootstrap/Image";
 function MainNavBar() {
   return (
     <div class="wrapper">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>   
+
       <nav id="sidebar">
         <div class="sidebar-header">
-          <Image src={Bofa} alt="..." width="220px" height="273px" />
+          <Image src={Bofa} alt="..." width="auto" height="100px" />
         </div>
 
         <ul class="list-unstyled components">
@@ -28,6 +30,10 @@ function MainNavBar() {
           </li>
           <li>
             <a href="/contact_info">Contact Information</a>
+          </li>
+          <li id="instagram">
+          <a href="#" class="fa fa-instagram"></a>  
+
           </li>
         </ul>
       </nav>
