@@ -2,24 +2,26 @@ import React from "react";
 import ExecBoard from "../components/ExecBoard";
 import MainNavBar from "../components/MainNavBar";
 import Container from "react-bootstrap/esm/Container";
-import { Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 const HomePage = () => {
   return (
     <div className=" ">
       {/* the div wrapper will place the side bar with other elements  */}
       <div className="">
-        <Container fluid>
-          <Col xs="1">
+        <Container fluid style={{padding:"0px"}} >
+          <Row>
+          <Col class="col-1" style={{padding:"0px"}}>
           <div >
           <MainNavBar />
         </div>
           </Col>
-          <Col fluid>
-          <div >
+          <Col  class="col-11 align-self-end" fluid style={{paddingLeft:"110px",right:"0%",padding:"0px",backgroundColor: "rgb(136, 136, 136)"}}>
+          
           <ExecBoard />
-        </div>
+        
           </Col>
-        </Container>
+          </Row>
+        </Container >
      
        
       </div>
