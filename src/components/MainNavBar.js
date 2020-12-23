@@ -1,8 +1,5 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 import Bofa from "../pictures/webfrucht.png";
 import Image from "react-bootstrap/Image";
 function MainNavBar() {
@@ -31,8 +28,8 @@ function MainNavBar() {
           <li>
             <a href="/contact_info">Contact Information</a>
           </li>
-          <li id="instagram">
-          <a href="#" class="fa fa-instagram"></a>  
+          <li id="instagram" style={{}}>
+          <a href="https://www.instagram.com/aepicf/" target="_blank" rel="noreferrer" class="fa fa-instagram"></a>  
 
           </li>
         </ul>
