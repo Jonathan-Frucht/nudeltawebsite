@@ -10,6 +10,7 @@ import "./App.css";
 import ExecPage from "./pages/ExecPage";
 import HomePage from "./pages/HomePage";
 import RushPage from "./pages/RushPage";
+import RushFormPage from "./pages/RushFormPage";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Switch>
         {/* <Route exact path="/" component={}/> */}
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/exec_board" component={ExecPage} />
-        <Route exact path="/rush" component={RushPage} />
+        {/* <Route exact path="/exec_board" component={ExecPage} /> */}
+        <Route exact path="/rush_info" component={RushPage} />
+        <Route exact path="/rush_Form" component={RushFormPage} />
         <Redirect to="/" />
       </Switch>
     </Router>
