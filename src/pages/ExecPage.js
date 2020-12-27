@@ -8,22 +8,28 @@ const HomePage = () => {
     <div className=" ">
       {/* the div wrapper will place the side bar with other elements  */}
       <div className="">
-        <Container fluid style={{padding:"0px"}} >
+        <Container fluid style={{ padding: "0px" }}>
           <Row>
-          <Col class="col-1" style={{padding:"0px"}}>
-          <div >
-          <MainNavBar />
-        </div>
-          </Col>
-          <Col  class="col-11 align-self-end" fluid style={{paddingLeft:"110px",right:"0%",padding:"0px",backgroundColor: "rgb(136, 136, 136)"}}>
-          
-          <ExecBoard />
-        
-          </Col>
+            <Col class="col-1" style={{ padding: "0px" }}>
+              <div>
+                <MainNavBar />
+              </div>
+            </Col>
+            <Col
+              class="col-11 align-self-end"
+              fluid
+              style={{
+                paddingLeft: "110px",
+                minWidth: "88%",
+                right: "0%",
+                padding: "0px",
+                backgroundColor: "rgb(136, 136, 136)",
+              }}
+            >
+              <ExecBoard />
+            </Col>
           </Row>
-        </Container >
-     
-       
+        </Container>
       </div>
     </div>
   );

@@ -8,14 +8,14 @@ const RushPage = () => {
     <div className=" ">
       {/* the div wrapper will place the side bar with other elements  */}
       <div className="">
-        <Container fluid>
+        <Container fluid >
           <Col xs="1">
           <div >
           <MainNavBar />
         </div>
           </Col>
           
-          <Col fluid>
+          <Col fluid >
           <div style={{backgroundColor:"grey"}} >
           <Rush />
         </div>

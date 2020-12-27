@@ -16,21 +16,12 @@ function Init() {
       }}
     >
       <Container>
-        <h1>Put a pic here</h1>
+        <h1 style={{ textAlign: "center", fontSize: "3rem" }}>
+          The Nu Delta Chapter of Alpha Epsilon Pi
+        </h1>
+        <h2 style={{ textAlign: "center" }}>Central Florida</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante
-          dui, viverra imperdiet viverra non, venenatis ut ex. Nulla vel
-          sagittis erat. Morbi in tortor euismod, efficitur leo pretium,
-          placerat odio. Aliquam maximus nibh ut diam tincidunt, sed volutpat
-          diam semper. Proin a purus in massa pellentesque volutpat. Sed vitae
-          risus dolor. Nullam eros dolor, pretium vitae est luctus, sagittis
-          efficitur ligula. Ut et nulla hendrerit purus interdum ornare. Donec
-          in vulputate odio, sit amet venenatis ipsum. Aliquam consequat semper
-          nisi nec feugiat. Proin consequat posuere ligula at lacinia. Curabitur
-          a ornare lacus, non congue tellus. Vivamus blandit at lectus sit amet
-          condimentum. Etiam blandit, tellus at luctus efficitur, sapien neque
-          volutpat diam, nec mollis tellus nisi vitae urna. Praesent at lorem
-          non libero venenatis euismod sit amet quis turpis.
+          <li></li>
         </p>
       </Container>
     </Jumbotron>
