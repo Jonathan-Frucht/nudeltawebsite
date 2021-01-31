@@ -1,6 +1,6 @@
 import React from "react";
 import RushForm from "../components/RushForm";
-import MainNavBar from "../components/MainNavBar";
+import SideNavBar from "../components/MainSideBar";
 import Container from "react-bootstrap/esm/Container";
 import { Row, Col } from "react-bootstrap";
 const RushFormPage = () => {
@@ -18,7 +18,7 @@ const RushFormPage = () => {
           <Row style={{ padding: "0px" }}>
             <Col style={{ padding: "0px" }}>
               <div>
-                <MainNavBar />
+                <SideNavBar />
               </div>
             </Col>
             <Col
