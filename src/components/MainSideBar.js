@@ -29,7 +29,9 @@ function MainSideBar() {
         </div>
         <Menu iconShape="square" icon={<img src={Bofa} />}>
           <MenuItem>
-            <a href="/">Home</a>
+            <div className="anch">
+              Home <Link to="/" />
+            </div>
           </MenuItem>
           <SubMenu id title="Alumni" style={{ listStyleType: "none" }}>
             <MenuItem>
@@ -41,13 +43,18 @@ function MainSideBar() {
             <MenuItem>
               <div className="anch">
                 Update your information
-                <Link to="/rush_info" />
+                <Link to="/alum_info" />
               </div>
             </MenuItem>
           </SubMenu>
-          <MenuItem>Philanthropy</MenuItem>
+          <MenuItem>
+            <div className="anch">
+              Philanthropy
+              <Link to="/philanthropy" />
+            </div>
+          </MenuItem>
           <SubMenu id title="Rush" style={{ listStyleType: "none" }}>
-            <MenuItem href="/rush_form">
+            <MenuItem>
               <div className="anch">
                 What is Rush?
                 <Link to="/rush_info" />
@@ -60,9 +67,20 @@ function MainSideBar() {
               </div>
             </MenuItem>
           </SubMenu>
-
-          <MenuItem>Brotherhood</MenuItem>
-          <MenuItem>Contact Info</MenuItem>
+          <SubMenu id title="Brotherhood">
+            <MenuItem>
+              <div className="anch">
+                Composites
+                <Link to="/composites" />
+              </div>
+            </MenuItem>
+            <MenuItem>
+              <div className="anch">
+                Gallery
+                <Link to="/bhgallery" />
+              </div>
+            </MenuItem>
+          </SubMenu>
 
           <button
             onClick={GoToInsta}
@@ -97,9 +115,15 @@ function MainSideBar() {
                   <Image
                     src={Insta}
                     alt="..."
-                    width="auto"
+                    fluid
+                    width="50px"
                     height="50px"
-                    style={{ padding: "0px", margin: "0px" }}
+                    style={{
+                      padding: "0px",
+                      // marginLeft: "3rem",
+                      // position: "absolute",
+                      bottom: "5%",
+                    }}
                   />
                 </div>
                 {/* <img
@@ -121,6 +145,9 @@ function MainSideBar() {
               </div>{" "}
             </div>
           </button>
+          <div color="white" style={{ padding: "1rem" }}>
+            <p>Email nudeltascribe@gmail.com for all inqueries</p>{" "}
+          </div>
         </Menu>
       </ProSidebar>
     </div>

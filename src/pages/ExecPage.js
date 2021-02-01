@@ -1,6 +1,6 @@
 import React from "react";
 import ExecBoard from "../components/ExecBoard";
-import MainNavBar from "../components/MainNavBar";
+import SideNavBar from "../components/MainSideBar";
 import Container from "react-bootstrap/esm/Container";
 import { Col, Row } from "react-bootstrap";
 const HomePage = () => {
@@ -12,7 +12,7 @@ const HomePage = () => {
           <Row>
             <Col class="col-1" style={{ padding: "0px" }}>
               <div>
-                <MainNavBar />
+                <SideNavBar />
               </div>
             </Col>
             <Col
