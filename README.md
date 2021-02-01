@@ -1,6 +1,7 @@
 # Last Push Notes:
 
-Pushing all files as I am transitioning workspaces 12/26
+Due to an Error with my editor, I was unable to push updates to the github. 
+The latest push should be an up-to-date version of the project.
 
 # Getting Started with Create React App
 
